@@ -13,7 +13,7 @@ nicknameGet.addEventListener('input', () => {
     if(nicknameGet.value.length >= 1) {
         playerGet.innerHTML = `<strong>${nicknameGet.value}</strong>`;
     } else {
-        playerGet.innerHTML = `<strong>Jogador</strong>`;
+        playerGet.innerHTML = `<strong>Fulano</strong>`;
     }
 })
 
